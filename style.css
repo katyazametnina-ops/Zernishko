@@ -1,6 +1,17 @@
-html {
-    font-family: 'Montserrat Alternates';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-button {
-    font-family: 'Montserrat Alternates';
+
+::-moz-placeholder {
+    font-family: "Montserrat Alternates";
 }
+
+html,
+button,
+::placeholder {
+    font-family: "Montserrat Alternates";
+}
+
+/*# sourceMappingURL=style.css.map */
