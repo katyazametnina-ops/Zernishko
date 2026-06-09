@@ -4,8 +4,48 @@
   box-sizing: border-box;
 }
 
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.background {
+  background-color: #f6f5f4;
+}
 html,
 button,
 ::placeholder {
   font-family: "Montserrat Alternates";
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40.5px;
+  padding-bottom: 40.5px;
+  &__nav {
+    display: flex;
+    gap: 48px;
+    &-btn {
+      border: none;
+      background: none;
+      font-size: 16px;
+      font-weight: 600;
+      color: #45403d;
+    }
+    &-border {
+      background: none;
+      border: 1px, solid, #a26539;
+      color: #a26539;
+      font-size: 16px;
+      font-weight: 600;
+      width: 169px;
+      height: 52px;
+      border-radius: 24px;
+    }
+  }
+}
+
+.top {
+  padding-top: 118.35px;
 }
