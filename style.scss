@@ -49,10 +49,8 @@ button,
 
 .top {
   padding-top: 118.35px;
-  display: flex;
-  width: 843px;
-  height: 802px;
   position: relative;
+  overflow: hidden;
 
   &__left {
     width: 586px;
@@ -76,7 +74,7 @@ button,
       width: 498px;
       padding-bottom: 40px;
       font-size: 16px;
-      font-weight: 600;
+      font-weight: 400;
       color: $darck;
     }
 
@@ -89,13 +87,28 @@ button,
       color: $brown;
       font-size: 16px;
       font-weight: 600;
+      margin-bottom: 208px;
     }
   }
-  &__right {
+  &__background {
     position: absolute;
-    width: 1119.632408838799px;
-    height: 677.5637590746452px;
-    border-radius: 40px;
-    top: 37px;
+    width: clamp(500px, 75vw, 1119px);
+    height: clamp(300px, 45vw, 677px);
+    background: url("./img/А-доска.svg") center/cover no-repeat;
+    z-index: 1;
+    mask-image: radial-gradient(
+      ellipse at center,
+      black 50%,
+      /* Черный цвет до 50% (видимая часть) */ transparent 50%
+        /* Прозрачный цвет после 50% (скрытая часть) */
+    );
+    -webkit-mask-image: radial-gradient(
+      ellipse at center,
+      black 50%,
+      transparent 50%
+    );
+    top: -50px;
+    transform: rotate(-9.97deg);
+    left: 37vw;
   }
 }
