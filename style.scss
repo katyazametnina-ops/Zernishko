@@ -1,3 +1,4 @@
+@import "vars";
 * {
   padding: 0;
   margin: 0;
@@ -31,7 +32,7 @@ button,
       background: none;
       font-size: 16px;
       font-weight: 600;
-      color: #45403d;
+      color: $darck;
     }
     &-border {
       background: none;
@@ -48,4 +49,42 @@ button,
 
 .top {
   padding-top: 118.35px;
+
+  &__left {
+    width: 586px;
+
+    &-title-max {
+      font-size: 48px;
+      font-weight: 700;
+      padding-bottom: 24px;
+      color: $darck;
+    }
+
+    &-title-mini {
+      font-size: 24px;
+      font-weight: 600;
+      padding-bottom: 24px;
+      width: 498px;
+      color: $darck;
+    }
+
+    &-paragraph {
+      width: 498px;
+      padding-bottom: 40px;
+      font-size: 16px;
+      font-weight: 600;
+      color: $darck;
+    }
+
+    &-btn {
+      width: 366px;
+      height: 52px;
+      background: none;
+      border: 1px, solid, $brown;
+      border-radius: 24px;
+      color: $brown;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
 }

@@ -38,7 +38,7 @@ button,
   background: none;
   font-size: 16px;
   font-weight: 600;
-  color: #45403d;
+  color: #45403D;
 }
 .head__nav-border {
   background: none;
@@ -53,4 +53,37 @@ button,
 
 .top {
   padding-top: 118.35px;
+}
+.top__left {
+  width: 586px;
+}
+.top__left-title-max {
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 24px;
+  color: #45403D;
+}
+.top__left-title-mini {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 24px;
+  width: 498px;
+  color: #45403D;
+}
+.top__left-paragraph {
+  width: 498px;
+  padding-bottom: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #45403D;
+}
+.top__left-btn {
+  width: 366px;
+  height: 52px;
+  background: none;
+  border: 1px, solid, #A26539;
+  border-radius: 24px;
+  color: #A26539;
+  font-size: 16px;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
