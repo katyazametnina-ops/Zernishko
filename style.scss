@@ -49,6 +49,10 @@ button,
 
 .top {
   padding-top: 118.35px;
+  display: flex;
+  width: 843px;
+  height: 802px;
+  position: relative;
 
   &__left {
     width: 586px;
@@ -86,5 +90,12 @@ button,
       font-size: 16px;
       font-weight: 600;
     }
+  }
+  &__right {
+    position: absolute;
+    width: 1119.632408838799px;
+    height: 677.5637590746452px;
+    border-radius: 40px;
+    top: 37px;
   }
 }

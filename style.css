@@ -53,6 +53,10 @@ button,
 
 .top {
   padding-top: 118.35px;
+  display: flex;
+  width: 843px;
+  height: 802px;
+  position: relative;
 }
 .top__left {
   width: 586px;
@@ -86,4 +90,11 @@ button,
   color: #A26539;
   font-size: 16px;
   font-weight: 600;
+}
+.top__right {
+  position: absolute;
+  width: 1119.6324088388px;
+  height: 677.5637590746px;
+  border-radius: 40px;
+  top: 37px;
 }/*# sourceMappingURL=style.css.map */
