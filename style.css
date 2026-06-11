@@ -13,6 +13,10 @@
   background-color: #f6f5f4;
 }
 
+html {
+  color: #45403D;
+}
+
 ::-moz-placeholder {
   font-family: "Montserrat Alternates";
 }
@@ -63,21 +67,18 @@ button,
   font-size: 48px;
   font-weight: 700;
   padding-bottom: 24px;
-  color: #45403D;
 }
 .top__left-title-mini {
   font-size: 24px;
   font-weight: 600;
   padding-bottom: 24px;
   width: 498px;
-  color: #45403D;
 }
 .top__left-paragraph {
   width: 498px;
   padding-bottom: 40px;
   font-size: 16px;
   font-weight: 400;
-  color: #45403D;
 }
 .top__left-btn {
   width: 366px;
@@ -161,7 +162,6 @@ button,
 .section-info__title {
   font-size: 48px;
   font-weight: 700;
-  color: #45403D;
   padding-bottom: 48px;
 }
 
@@ -169,12 +169,13 @@ button,
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
+  padding-bottom: 64px;
 }
 
 .info-box {
   width: 584px;
   display: flex;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1411764706);
   border-radius: 24px 24px 24px 0;
   gap: 20px;
@@ -192,4 +193,75 @@ button,
 .info-box__card-paragraph {
   padding-right: 20px;
   font-size: 14px;
+}
+
+.menu {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.menu__nav {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 48px;
+}
+.menu__nav-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+.menu__nav-assortment {
+  display: flex;
+  gap: 7px;
+}
+.menu__nav-assortment-btn {
+  width: 120px;
+  height: 45px;
+  border: 1px solid #A26539;
+  color: #A26539;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.coffee,
+.dessert,
+.snacks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card {
+  width: 276px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1411764706);
+}
+.card__top {
+  background-color: #dedede;
+  border-radius: 24px 24px 0 0;
+}
+.card__top-img {
+  width: 100%;
+}
+.card__content {
+  padding: 20px;
+}
+.card__content-price {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 7px;
+}
+.card__content-description {
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 7px;
+}
+.card__content-volume {
+  color: #9a9a9a;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.reviews {
+  padding-top: 64px;
 }/*# sourceMappingURL=style.css.map */
