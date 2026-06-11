@@ -264,4 +264,42 @@ button,
 
 .reviews {
   padding-top: 64px;
+}
+.reviews__title {
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 48px;
+}
+.reviews__united {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 32px;
+  padding-bottom: 64px;
+}
+.reviews__united-card {
+  width: 378px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1411764706);
+  border-radius: 24px;
+}
+.reviews__united-card-top {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+.reviews__united-card-top-img {
+  border-radius: 100%;
+  width: 63px;
+  height: 63px;
+}
+.reviews__united-card-top-right-name {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 7px;
+}
+.reviews__united-card-description {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 20px 20px 20px;
 }/*# sourceMappingURL=style.css.map */
