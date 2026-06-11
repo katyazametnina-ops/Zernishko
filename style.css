@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -93,13 +92,104 @@ button,
 }
 .top__background {
   position: absolute;
-  width: clamp(500px, 75vw, 1119px);
-  height: clamp(300px, 45vw, 677px);
-  background: url("./img/А-доска.svg") center/cover no-repeat;
+  width: clamp(500px, 75vw, 1220px);
+  height: clamp(300px, 45vw, 861px);
   z-index: 1;
-  mask-image: radial-gradient(ellipse at center, black 50%, transparent 50%);
-  -webkit-mask-image: radial-gradient(ellipse at center, black 50%, transparent 50%);
-  top: -50px;
+  mask-image: radial-gradient(ellipse 90% 100% at center, black 50%, transparent 50%);
+  -webkit-mask-image: radial-gradient(ellipse 90% 100% at center, black 50%, transparent 50%);
+  top: 40px;
   transform: rotate(-9.97deg);
-  left: 37vw;
+  left: 44vw;
+}
+.top__background-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.top__cup {
+  position: absolute;
+  z-index: 1;
+  width: 540px;
+  height: 540px;
+  top: -20px;
+  left: 43vw;
+  transform: rotate(0deg);
+  transition: all 0.3s;
+}
+.top__cup:hover {
+  transform: rotate(10deg);
+  transition: all 0.3s;
+}
+.top__coffee {
+  position: absolute;
+  z-index: 1;
+  width: 270px;
+  height: 270px;
+  top: 60px;
+  left: 71vw;
+}
+.top__cookies {
+  position: absolute;
+  z-index: 1;
+  width: 393px;
+  height: 393px;
+  top: 370px;
+  left: 43vw;
+  transform: rotate(0deg);
+  transition: all 0.3s;
+}
+.top__cookies:hover {
+  transform: rotate(-10deg);
+  transition: all 0.3s;
+}
+.top__bun {
+  position: absolute;
+  z-index: 1;
+  width: 569px;
+  height: 569px;
+  transform: rotate(0deg);
+  transition: all 0.3s;
+  top: 220px;
+  left: 58vw;
+}
+.top__bun:hover {
+  transform: rotate(-10deg);
+  transition: all 0.3s;
+}
+
+.section-info__title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #45403D;
+  padding-bottom: 48px;
+}
+
+.united {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.info-box {
+  width: 584px;
+  display: flex;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1411764706);
+  border-radius: 24px 24px 24px 0;
+  gap: 20px;
+}
+.info-box__img {
+  border-radius: 24px 0 0 0;
+}
+.info-box__card-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #45403D;
+  padding-top: 20px;
+  padding-bottom: 14px;
+}
+.info-box__card-paragraph {
+  padding-right: 20px;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
