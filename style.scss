@@ -105,6 +105,13 @@ button,
       font-size: 16px;
       font-weight: 600;
       margin-bottom: 208px;
+      transition: all 0.3s;
+    }
+
+    &-btn:hover {
+      background-color: $brown;
+      color: #ffffff;
+      transition: all 0.3s;
     }
   }
 
@@ -447,7 +454,7 @@ button,
     }
   }
 
-  &__box:hover .contacts__box-img path{
+  &__box:hover .contacts__box-img path {
     fill: #a26539 !important;
   }
   &__box:hover .contacts__box-item {
