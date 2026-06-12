@@ -103,6 +103,12 @@ button,
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 208px;
+  transition: all 0.3s;
+}
+.top__left-btn:hover {
+  background-color: #A26539;
+  color: #ffffff;
+  transition: all 0.3s;
 }
 .top__composition {
   position: absolute;
